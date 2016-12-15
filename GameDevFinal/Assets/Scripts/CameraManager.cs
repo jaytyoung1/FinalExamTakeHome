@@ -15,10 +15,12 @@ public class CameraManager : MonoBehaviour
 
     void Update ()
     {
+        //if the user presses Tab, switch to the next camera
 	    if (Input.GetKeyUp(KeyCode.Tab))
             switchCamera(cameraIndex);
     }
 
+    //makes mainCamera[camera] visible, the rest inactive
     void updateCamera(int camera)
     {
 
