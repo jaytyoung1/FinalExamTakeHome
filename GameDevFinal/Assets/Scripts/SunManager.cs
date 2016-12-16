@@ -11,6 +11,7 @@ public class SunManager : MonoBehaviour
 	void Start ()
     {
         currentXRotation = startingXRotation;
+        sun.transform.eulerAngles = new Vector3(currentXRotation, 0, 0);
     }
 
     void Update ()
