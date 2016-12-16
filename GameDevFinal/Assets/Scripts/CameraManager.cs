@@ -31,7 +31,7 @@ public class CameraManager : MonoBehaviour
             else
                 mainCameras[i].enabled = false;
         }
-        Debug.Log("Displaying camera " + camera);
+        //Debug.Log("Displaying camera " + camera);
     }
 
     void switchCamera(int currentCamera)
